@@ -6,7 +6,11 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Link href='/'>
-        <img className={styles.logo} src={`/images/ghibli-logo.png`} />
+        <img
+          alt='Studio Ghibli Logo'
+          className={styles.logo}
+          src={`/images/ghibli-logo.png`}
+        />
       </Link>
       <main>{children}</main>
       <div>

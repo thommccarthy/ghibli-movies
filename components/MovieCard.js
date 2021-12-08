@@ -10,7 +10,11 @@ const MovieCard = ({ movie }) => {
       <div className={movieCardStyles.singleMovieCard}>
         <h2 className={movieCardStyles.movieTitle}>{movie.title}</h2>
         <div className={movieCardStyles.movieImageWrapper}>
-          <img className={movieCardStyles.movieImage} src={movie.image} />
+          <img
+            alt={`${movie.title} poster image`}
+            className={movieCardStyles.movieImage}
+            src={movie.image}
+          />
         </div>
       </div>
     </Link>

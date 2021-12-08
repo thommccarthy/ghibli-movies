@@ -9,7 +9,11 @@ const movie = ({ movie }) => {
     <div>
       <h1 className={movieStyles.title}>{movie.title}</h1>
       <div>
-        <img className={movieStyles.banner} src={movie.movie_banner} />
+        <img
+          alt={`${movie.title} banner image`}
+          className={movieStyles.banner}
+          src={movie.movie_banner}
+        />
       </div>
       <ul className={movieStyles.creditsWrapper}>
         <li>
