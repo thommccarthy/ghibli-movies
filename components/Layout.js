@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <div>
         <p className={styles.footerText}>
-          2021{' '}
+          2021 tribute by{' '}
           <a href='https://thommccarthy.dev' target='_blank'>
             Thom McCarthy
           </a>

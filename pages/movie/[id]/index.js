@@ -1,13 +1,40 @@
 import React from 'react';
+import Link from 'next/link';
+import movieStyles from './movie.module.css';
 
 const movie = ({ movie }) => {
   console.log(movie);
 
   return (
     <div>
-      <h1>{movie.title}</h1>
-      <img src={movie.movie_banner} />
-      <p>{movie.description}</p>
+      <h1 className={movieStyles.title}>{movie.title}</h1>
+      <div>
+        <img className={movieStyles.banner} src={movie.movie_banner} />
+      </div>
+      <ul className={movieStyles.creditsWrapper}>
+        <li>
+          <p>
+            Director: <span>{movie.director}</span>
+          </p>
+        </li>
+        <li>
+          <p>
+            Producer: <span>{movie.producer}</span>
+          </p>
+        </li>
+        <li>
+          <p>
+            Release year: <span>{movie.release_date}</span>
+          </p>
+        </li>
+      </ul>
+
+      <p className={movieStyles.description}>{movie.description}</p>
+      <div className={movieStyles.linkWrapper}>
+        <Link className={movieStyles.linkComponent} href='/'>
+          <span className={movieStyles.homeLink}>Home</span>
+        </Link>
+      </div>
     </div>
   );
 };

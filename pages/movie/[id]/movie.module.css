@@ -1,0 +1,59 @@
+.title {
+  display: block;
+  font-size: 3.5em;
+  margin: 1.3em auto;
+  text-align: center;
+}
+
+.creditsWrapper {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1000px;
+}
+
+.creditsWrapper li {
+  font-weight: bold;
+}
+
+.creditsWrapper span {
+  font-weight: normal;
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1000px;
+}
+
+.description {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  width: 95%;
+  max-width: 1000px;
+  font-size: 1.4em;
+}
+
+.linkWrapper {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  padding-top: 4em;
+  max-width: max-content;
+}
+
+.homeLink {
+  cursor: pointer;
+  font-size: 1.3em;
+  margin: 0 auto;
+  border: solid #3799afc2 2px;
+  padding: 0.5em 1em;
+  transition: 0.1s;
+}
+
+.homeLink:hover {
+  background: #3799afc2;
+  color: white;
+}
