@@ -14,8 +14,22 @@
 
 .logo {
   display: block;
+  cursor: pointer;
   width: 80%;
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
+  padding: 1.2em;
+  transition: 0.3s;
+  border: solid #fff 4px;
+}
+
+.logo:hover {
+  border: solid #3799afc2 4px;
+}
+
+.footerText {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
