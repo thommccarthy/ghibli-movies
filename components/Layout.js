@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <div>
         <p className={styles.footerText}>
           2021 tribute by{' '}
-          <a href='https://thommccarthy.dev' target='_blank'>
+          <a href='https://thommccarthy.dev' target='_blank' rel='noreferrer'>
             Thom McCarthy
           </a>
         </p>
