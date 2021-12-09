@@ -1,22 +1,22 @@
 .singleMovieCard {
   cursor: pointer;
-  max-width: 28em;
+  max-width: 26em;
   padding-bottom: 2em;
   transition: 0.1s;
   border: solid #fff 6px;
 }
 
 .singleMovieCard:hover {
-  transform: scale(1.01);
+  transform: scale(1.005);
   box-shadow: 3px 3px 3px black;
-  border: solid #3799afdf 6px;
+  border: solid #3799afdf 3px;
 }
 
 .movieImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 96%;
 }
 
 .description {
@@ -34,4 +34,10 @@
   width: 100%;
   text-align: center;
   font-size: 1.7em;
+}
+
+@media screen and (min-width: 800px) {
+  .movieImage {
+    width: 84%;
+  }
 }

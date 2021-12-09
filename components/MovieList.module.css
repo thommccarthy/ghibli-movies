@@ -1,36 +1,8 @@
 .movieGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(315px, 30em));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 30em));
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  grid-gap: 2em;
-}
-
-.singleMovieCard {
-  max-width: 28em;
-}
-
-.movieImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.description {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.2em;
-  width: 90%;
-}
-
-.movieTitle {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-  font-size: 1.7em;
+  grid-gap: 1em;
 }

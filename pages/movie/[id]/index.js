@@ -36,7 +36,7 @@ const movie = ({ movie }) => {
       <p className={movieStyles.description}>{movie.description}</p>
       <div className={movieStyles.linkWrapper}>
         <Link className={movieStyles.linkComponent} href='/'>
-          <span className={movieStyles.homeLink}>Home</span>
+          <span className={movieStyles.homeLink}>Back</span>
         </Link>
       </div>
     </div>
